@@ -1,9 +1,9 @@
+DOCKER_PLATFORM:
+- linux/ppc64le
 c_compiler:
 - gcc
 c_compiler_version:
-- '12'
-cdt_name:
-- cos7
+- '15'
 channel_sources:
 - conda-forge
 channel_targets:
@@ -11,9 +11,9 @@ channel_targets:
 cxx_compiler:
 - gxx
 cxx_compiler_version:
-- '12'
+- '15'
 docker_image:
-- quay.io/condaforge/linux-anvil-ppc64le
+- quay.io/condaforge/linux-anvil-ppc64le:alma10
 target_platform:
 - linux-ppc64le
 zip_keys:
